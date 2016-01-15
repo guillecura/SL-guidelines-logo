@@ -1,16 +1,18 @@
 // -----------------------------------------------------------------------------
-// SOPHILABS GUIDELINES ANIMATED SVG ICON
+// DEFINE ALL COLOR VARIABLES
+//
+// scss-lint:disable ColorVariable
 // -----------------------------------------------------------------------------
 
 
-// Import all Variables
+// Primary palette
 // -----------------------------------------------------------------------------
-@import 'component/variables/index';
-@import 'theme/variables/index';
+$primary:           rgb(0, 169, 157);
+$primary-dark:      rgb(0, 59, 54);
 // -----------------------------------------------------------------------------
 
-// Import partials
+
+// Grayscale values
 // -----------------------------------------------------------------------------
-@import 'component/partials/base/sl-guidelines-icon';
-@import 'theme/partials/base/sl-guidelines-icon';
+$white:             rgb(255, 255, 255);
 // -----------------------------------------------------------------------------

@@ -1,0 +1,58 @@
+// -----------------------------------------------------------------------------
+// SOPHILABS GUIDELINES ICON STYLES
+// -----------------------------------------------------------------------------
+
+
+.sl-guidelines-icon {
+// Base styles
+// -----------------------------------------------------------------------------
+  // Colors
+  .primary {
+    fill: $primary;
+  }
+
+  .dark {
+    fill: $primary-dark;
+  }
+
+  .light {
+    fill: $white;
+  }
+// -----------------------------------------------------------------------------
+
+
+// Load animation
+// -----------------------------------------------------------------------------
+  // Background circle
+  .background {
+    // Transitions & Animations
+    animation: scale-in 1s ease-out;
+    transform-origin: center;
+  }
+
+
+  // Compass
+  .compass {
+    // Transitions & Animations
+    animation: scale-in-rotate-cw 1s ease .25s;
+    transform-origin: center;
+  }
+
+
+  // Compass Arrow
+  .arrow {
+    // Transitions & Animations
+    animation: scale-in-rotate-ccw 1s ease .5s;
+    transform-origin: center;
+  }
+// -----------------------------------------------------------------------------
+
+
+// Compass Arrow Hover effect
+// -----------------------------------------------------------------------------
+  &:hover .arrow {
+    // Transitions & Animations
+    animation: swing 2s ease 0s alternate infinite;
+  }
+// -----------------------------------------------------------------------------
+}
